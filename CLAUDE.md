@@ -27,7 +27,7 @@ Harus terasa ditulis manusia, bukan "gaya AI". Hindari pola klise AI.
 11–12. Nama & akun di atas.
 13. Nukilan kitab: tampilkan halaman kitab (teks halaman dari Turath, dirender seperti halaman kitab, dengan nama kitab/juz/halaman) dan beri tanda stabilo pada bagian yang dinukil, lalu terjemahkan.
 14. Judul: hook bergaya ilmiah atau gaya bahasa santri.
-15. Warna sampul: selalu hijau tua.
+15. Warna sampul: selalu hijau tua (#1E3A2B).
 16. Maksimal 10 slide.
 
 ## Rules TAZKIYAH / ADAB
@@ -41,4 +41,10 @@ Harus terasa ditulis manusia, bukan "gaya AI". Hindari pola klise AI.
 8. Rujukan dari Turath (تراث).
 9. Format JPG siap posting.
 10. Maksimal 10 slide.
-11. Warna sampul sesuai konteks (palet yang dilingkari pengguna — hanya sampul). JANGAN pakai hijau untuk konten non-fikih.
+11. Warna sampul sesuai palet pengguna (hanya sampul). JANGAN pakai hijau untuk konten non-fikih.
+
+## Palet warna (dari pengguna)
+- Fikih Syafi'i — Hijau hutan #1E3A2B (sampul fikih)
+- Tazkiyah / akhlak — Navy malam #1B2340 (sampul tazkiyah)
+- Postingan selingan — Krem kertas #F3EBDD (juga latar slide isi)
+- Aksen semua seri — Emas #D4A84B
