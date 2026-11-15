@@ -10,6 +10,7 @@ Penyusun: Ukkaasyah Abdurrahman · Instagram: @ukkaasyah.abdurrahman
    media = `https://raw.githubusercontent.com/Ukkaasyah/konten-ig/main/<path>.jpg` (urutan = urutan slide).
 5. Jadwal: 1x sehari pukul 16.00 WIB, ganti tema tiap hari (selang-seling fikih Syafi'i dan tazkiyah/adab).
 6. Sebelum terbit, unggah ke Metricool sebagai draf dulu; ubah jadi terjadwal hanya setelah pengguna bilang oke.
+7. Pengguna ingin setiap postingan "sembunyikan jumlah suka". API Metricool/Instagram tidak menyediakan opsi ini, jadi pengguna menyalakannya manual di aplikasi Instagram setelah postingan terbit (titik tiga > Sembunyikan jumlah suka).
 
 ## Font
 - Teks Arab: Amiri (file dari pengguna ada di `fonts/`, salin ke ~/.fonts lalu `fc-cache -f`).
