@@ -36,11 +36,11 @@ S.append(page(f"""
 </div>
 <div style='position:absolute;top:380px;left:110px;right:110px'>
   <div class='ar' style='text-align:left;font-size:66px;color:#D4A84B;line-height:1.2;margin-bottom:26px'>حُبُّ الْمَدْحِ</div>
-  <div style="font-family:'Young Serif',serif;font-size:104px;line-height:1.04;letter-spacing:-.015em">Diam-Diam<br>Menunggu<br>Dipuji</div>
+  <div style="font-family:'Lora',serif;font-weight:700;font-size:104px;line-height:1.04;letter-spacing:-.015em">Diam-Diam<br>Menunggu<br>Dipuji</div>
   <div style='font-size:32px;line-height:1.45;color:rgba(243,235,221,.78);margin-top:38px;max-width:800px'>Penyakit hati yang paling betah tinggal di zaman media sosial.</div>
 </div>
 <div style='position:absolute;bottom:104px;left:110px;right:110px;display:flex;justify-content:space-between;align-items:flex-end'>
-  <div><div style="font-family:'Young Serif',serif;font-size:30px">Ukkaasyah Abdurrahman</div>
+  <div><div style="font-family:'Lora',serif;font-weight:700;font-size:30px">Ukkaasyah Abdurrahman</div>
   <div style='font-size:22px;color:rgba(243,235,221,.65);margin-top:6px'>{HANDLE}</div></div>
   <div style='font-size:22px;font-weight:600;color:#D4A84B'>geser &rarr;</div>
 </div>
@@ -186,9 +186,9 @@ S.append(page(chrome(10, "Penutup", last=True) + f"""
   </div>
   <p class='body' style='margin-top:30px'>Semoga Allah menjaga hati kita dari ingin dilihat, dan dari berhenti beramal karena takut dilihat.</p>
   <div style='margin-top:auto;background:#1B2340;color:#F3EBDD;border-radius:22px;padding:30px 36px;display:flex;justify-content:space-between;align-items:center'>
-    <div><div style="font-family:'Young Serif',serif;font-size:31px">Simpan, baca lagi sebelum posting.</div>
+    <div><div style="font-family:'Lora',serif;font-weight:700;font-size:31px">Simpan, baca lagi sebelum posting.</div>
     <div style='font-size:22px;color:rgba(243,235,221,.75);margin-top:6px'>Bagikan ke yang sedang sama-sama belajar ikhlas.</div></div>
-    <div style='text-align:right;min-width:240px'><div style="font-family:'Young Serif',serif;font-size:24px;color:#D4A84B">Ukkaasyah Abdurrahman</div>
+    <div style='text-align:right;min-width:240px'><div style="font-family:'Lora',serif;font-weight:700;font-size:24px;color:#D4A84B">Ukkaasyah Abdurrahman</div>
     <div style='font-size:19px;color:rgba(243,235,221,.65);margin-top:4px'>{HANDLE}</div></div>
   </div>
 </div>"""))

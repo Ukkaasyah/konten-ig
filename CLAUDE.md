@@ -13,7 +13,7 @@ Penyusun: Ukkaasyah Abdurrahman · Instagram: @ukkaasyah.abdurrahman
 
 ## Font
 - Teks Arab: Amiri (file dari pengguna ada di `fonts/`, salin ke ~/.fonts lalu `fc-cache -f`).
-- Judul Latin: Young Serif (`fonts/`); isi: Inter (sudah ada di sistem).
+- Judul Latin: Lora Bold (dipilih pengguna; `fonts/`); isi: Inter (sudah ada di sistem).
 - Contoh skrip render (Playwright, 1080×1350, auto-fit): `tools/jamak_hujan_render.py`.
 
 ## Gaya bahasa (semua konten)

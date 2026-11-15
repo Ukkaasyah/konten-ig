@@ -9,7 +9,7 @@ body{width:1080px;height:1350px;font-family:'Inter',sans-serif;-webkit-font-smoo
 .foot{position:absolute;bottom:52px;left:80px;right:80px;display:flex;justify-content:space-between;align-items:center;font-size:21px;color:#1B2340;opacity:.75;font-weight:500}
 .foot .swipe{font-weight:600;color:#9A7A33;opacity:1}
 .wrap{position:absolute;top:130px;left:80px;right:80px;bottom:120px;display:flex;flex-direction:column}
-h2{font-family:'Young Serif',serif;font-weight:400;color:#1B2340;font-size:56px;line-height:1.12;letter-spacing:-.01em}
+h2{font-family:'Lora',serif;font-weight:700;color:#1B2340;font-size:56px;line-height:1.12;letter-spacing:-.01em}
 .rule{width:84px;height:4px;background:#D4A84B;border-radius:2px;margin:26px 0 30px}
 p.body{font-size:30px;line-height:1.55;color:#2A2723}
 p.body + p.body{margin-top:22px}
@@ -32,14 +32,14 @@ b.g{color:#1B2340}
 .tr p{font-size:25px;line-height:1.5;color:#2A2723}
 ol.syarat{list-style:none;counter-reset:s}
 ol.syarat li{counter-increment:s;position:relative;padding-left:66px;font-size:27px;line-height:1.45;margin-bottom:20px}
-ol.syarat li::before{content:counter(s);position:absolute;left:0;top:0;width:44px;height:44px;border-radius:50%;background:#1B2340;color:#F3EBDD;font-family:'Young Serif',serif;font-size:24px;display:flex;align-items:center;justify-content:center}
+ol.syarat li::before{content:counter(s);position:absolute;left:0;top:0;width:44px;height:44px;border-radius:50%;background:#1B2340;color:#F3EBDD;font-family:'Lora',serif;font-weight:700;font-size:24px;display:flex;align-items:center;justify-content:center}
 ul.dot{list-style:none}
 ul.dot li{position:relative;padding-left:34px;font-size:26px;line-height:1.45;margin-bottom:18px}
 ul.dot li::before{content:"";position:absolute;left:4px;top:15px;width:12px;height:12px;border-radius:50%;background:#D4A84B}
 ul.dot li .ref{display:block;font-size:19px;color:#8B7A5C;margin-top:3px}
 .pill{display:inline-block;background:#1B2340;color:#F3EBDD;font-size:19px;font-weight:600;letter-spacing:.06em;padding:6px 14px;border-radius:999px;margin-bottom:10px}
 .kh{border-left:5px solid #D4A84B;padding:6px 0 6px 24px;margin-bottom:22px}
-.kh .who{font-family:'Young Serif',serif;font-size:29px;color:#1B2340}
+.kh .who{font-family:'Lora',serif;font-weight:700;font-size:29px;color:#1B2340}
 .kh .what{font-size:24px;line-height:1.42;margin-top:4px}
 .kh .q{font-family:'Amiri',serif;direction:rtl;text-align:right;font-size:27px;color:#1B2340;margin-top:6px}
 .kh .ref{font-size:18px;color:#8B7A5C;margin-top:2px}

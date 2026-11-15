@@ -18,7 +18,7 @@ body{width:1080px;height:1350px;font-family:'Inter',sans-serif;-webkit-font-smoo
 .foot{position:absolute;bottom:52px;left:80px;right:80px;display:flex;justify-content:space-between;align-items:center;font-size:21px;color:#1E3A2B;opacity:.75;font-weight:500}
 .foot .swipe{font-weight:600;color:#9A7A33;opacity:1}
 .wrap{position:absolute;top:130px;left:80px;right:80px;bottom:120px;display:flex;flex-direction:column}
-h2{font-family:'Young Serif',serif;font-weight:400;color:#1E3A2B;font-size:56px;line-height:1.12;letter-spacing:-.01em}
+h2{font-family:'Lora',serif;font-weight:700;color:#1E3A2B;font-size:56px;line-height:1.12;letter-spacing:-.01em}
 .rule{width:84px;height:4px;background:#D4A84B;border-radius:2px;margin:26px 0 30px}
 p.body{font-size:30px;line-height:1.55;color:#2A2723}
 p.body + p.body{margin-top:22px}
@@ -41,14 +41,14 @@ b.g{color:#1E3A2B}
 .tr p{font-size:25px;line-height:1.5;color:#2A2723}
 ol.syarat{list-style:none;counter-reset:s}
 ol.syarat li{counter-increment:s;position:relative;padding-left:66px;font-size:27px;line-height:1.45;margin-bottom:20px}
-ol.syarat li::before{content:counter(s);position:absolute;left:0;top:0;width:44px;height:44px;border-radius:50%;background:#1E3A2B;color:#F3EBDD;font-family:'Young Serif',serif;font-size:24px;display:flex;align-items:center;justify-content:center}
+ol.syarat li::before{content:counter(s);position:absolute;left:0;top:0;width:44px;height:44px;border-radius:50%;background:#1E3A2B;color:#F3EBDD;font-family:'Lora',serif;font-weight:700;font-size:24px;display:flex;align-items:center;justify-content:center}
 ul.dot{list-style:none}
 ul.dot li{position:relative;padding-left:34px;font-size:26px;line-height:1.45;margin-bottom:18px}
 ul.dot li::before{content:"";position:absolute;left:4px;top:15px;width:12px;height:12px;border-radius:50%;background:#D4A84B}
 ul.dot li .ref{display:block;font-size:19px;color:#8B7A5C;margin-top:3px}
 .pill{display:inline-block;background:#1E3A2B;color:#F3EBDD;font-size:19px;font-weight:600;letter-spacing:.06em;padding:6px 14px;border-radius:999px;margin-bottom:10px}
 .kh{border-left:5px solid #D4A84B;padding:6px 0 6px 24px;margin-bottom:22px}
-.kh .who{font-family:'Young Serif',serif;font-size:29px;color:#1E3A2B}
+.kh .who{font-family:'Lora',serif;font-weight:700;font-size:29px;color:#1E3A2B}
 .kh .what{font-size:24px;line-height:1.42;margin-top:4px}
 .kh .q{font-family:'Amiri',serif;direction:rtl;text-align:right;font-size:27px;color:#1E3A2B;margin-top:6px}
 .kh .ref{font-size:18px;color:#8B7A5C;margin-top:2px}
@@ -90,11 +90,11 @@ slides.append(page(f"""
 </div>
 <div style='position:absolute;top:360px;left:110px;right:110px'>
   <div class='ar' style='text-align:left;direction:rtl;unicode-bidi:plaintext;font-size:64px;color:#D4A84B;line-height:1.2;margin-bottom:26px'>الْجَمْعُ بِالْمَطَرِ</div>
-  <div style="font-family:'Young Serif',serif;font-size:100px;line-height:1.04;letter-spacing:-.015em">Hujan Deras,<br>Boleh Langsung<br>Jamak?</div>
+  <div style="font-family:'Lora',serif;font-weight:700;font-size:100px;line-height:1.04;letter-spacing:-.015em">Hujan Deras,<br>Boleh Langsung<br>Jamak?</div>
   <div style='font-size:32px;line-height:1.45;color:rgba(243,235,221,.78);margin-top:38px;max-width:780px'>Rukhshahnya ada. Tapi syaratnya tidak sesederhana &ldquo;yang penting hujan&rdquo;.</div>
 </div>
 <div style='position:absolute;bottom:104px;left:110px;right:110px;display:flex;justify-content:space-between;align-items:flex-end'>
-  <div><div style="font-family:'Young Serif',serif;font-size:30px">Ukkaasyah Abdurrahman</div>
+  <div><div style="font-family:'Lora',serif;font-weight:700;font-size:30px">Ukkaasyah Abdurrahman</div>
   <div style='font-size:22px;color:rgba(243,235,221,.65);margin-top:6px'>{HANDLE}</div></div>
   <div style='font-size:22px;font-weight:600;color:#D4A84B'>geser &rarr;</div>
 </div>
@@ -232,9 +232,9 @@ slides.append(page(chrome(10, "Penutup", last=True) + f"""
     <div class='src'>HR. Ahmad no. 5866, Ibnu Khuzaimah &amp; Ibnu Hibban. Dinilai hasan shahih oleh Al-Albani (Shahih At-Targhib no. 1059)</div>
   </div>
   <div style='margin-top:auto;background:#1E3A2B;color:#F3EBDD;border-radius:22px;padding:30px 36px;display:flex;justify-content:space-between;align-items:center'>
-    <div><div style="font-family:'Young Serif',serif;font-size:31px">Simpan untuk musim hujan.</div>
+    <div><div style="font-family:'Lora',serif;font-weight:700;font-size:31px">Simpan untuk musim hujan.</div>
     <div style='font-size:22px;color:rgba(243,235,221,.75);margin-top:6px'>Kirim ke imam atau pengurus masjid di kampungmu.</div></div>
-    <div style='text-align:right'><div style="font-family:'Young Serif',serif;font-size:24px;color:#D4A84B">Ukkaasyah Abdurrahman</div>
+    <div style='text-align:right'><div style="font-family:'Lora',serif;font-weight:700;font-size:24px;color:#D4A84B">Ukkaasyah Abdurrahman</div>
     <div style='font-size:19px;color:rgba(243,235,221,.65);margin-top:4px'>{HANDLE}</div></div>
   </div>
 </div>"""))
