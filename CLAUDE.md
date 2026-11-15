@@ -8,7 +8,13 @@ Penyusun: Ukkaasyah Abdurrahman · Instagram: @ukkaasyah.abdurrahman
 3. Setelah disetujui: commit gambar ke folder `posts/YYYY-MM-DD-slug/` di repo ini, push ke `main`.
 4. Jadwalkan lewat Metricool (blogId `8115480`, zona waktu Asia/Jakarta, network `instagram`, type `POST`),
    media = `https://raw.githubusercontent.com/Ukkaasyah/konten-ig/main/<path>.jpg` (urutan = urutan slide).
-5. Jadwal: 2x sehari (pagi & sore), selang-seling fikih Syafi'i dan tazkiyah/adab.
+5. Jadwal: 1x sehari pukul 16.00 WIB, ganti tema tiap hari (selang-seling fikih Syafi'i dan tazkiyah/adab).
+6. Sebelum terbit, unggah ke Metricool sebagai draf dulu; ubah jadi terjadwal hanya setelah pengguna bilang oke.
+
+## Font
+- Teks Arab: Amiri (file dari pengguna ada di `fonts/`, salin ke ~/.fonts lalu `fc-cache -f`).
+- Judul Latin: Young Serif (`fonts/`); isi: Inter (sudah ada di sistem).
+- Contoh skrip render (Playwright, 1080×1350, auto-fit): `tools/jamak_hujan_render.py`.
 
 ## Gaya bahasa (semua konten)
 Harus terasa ditulis manusia, bukan "gaya AI". Hindari pola klise AI.
