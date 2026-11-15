@@ -1,5 +1,8 @@
 # Konten Instagram @ukkaasyah.abdurrahman
 
+> Repo ini juga dipakai untuk akun pondok @mahad.aly.luqmanulhakim. Aturannya terpisah di `mahad/CLAUDE.md`,
+> dan aturan di file ini TIDAK berlaku untuk konten Ma'had.
+
 Penyusun: Ukkaasyah Abdurrahman · Instagram: @ukkaasyah.abdurrahman
 
 ## Alur kerja
