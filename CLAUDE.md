@@ -15,6 +15,12 @@ Penyusun: Ukkaasyah Abdurrahman · Instagram: @ukkaasyah.abdurrahman
 6. Sebelum terbit, unggah ke Metricool sebagai draf dulu; ubah jadi terjadwal hanya setelah pengguna bilang oke.
 7. Pengguna ingin setiap postingan "sembunyikan jumlah suka". API Metricool/Instagram tidak menyediakan opsi ini, jadi pengguna menyalakannya manual di aplikasi Instagram setelah postingan terbit (titik tiga > Sembunyikan jumlah suka).
 
+## Rencana: ajakan unduh aplikasi Haidku (BELUM aktif)
+- Setelah pembayaran Mayar aktif (perkiraan pengguna: 18–19 Nov 2026), setiap carousel ditutup dengan slide ajakan mendapatkan aplikasi Haidku, "link ada di bio"; caption juga ditutup dengan ajakan yang sama.
+- Slide ajakan dihitung dalam batas maksimal 10 slide.
+- Jangan cantumkan harga di materi promosi.
+- Jangan pasang sebelum pengguna mengonfirmasi Mayar sudah aktif.
+
 ## Font
 - Teks Arab: Amiri (file dari pengguna ada di `fonts/`, salin ke ~/.fonts lalu `fc-cache -f`).
 - Judul Latin: Lora Bold (dipilih pengguna; `fonts/`); isi: Inter (sudah ada di sistem).
