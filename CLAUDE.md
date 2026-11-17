@@ -20,6 +20,7 @@ Penyusun: Ukkaasyah Abdurrahman · Instagram: @ukkaasyah.abdurrahman
 - Slide ajakan dihitung dalam batas maksimal 10 slide.
 - Jangan cantumkan harga di materi promosi.
 - Jangan pasang sebelum pengguna mengonfirmasi Mayar sudah aktif.
+- Template slide ajakan: `tools/haidku_cta.py OUT.jpg NO TOTAL` (warna merek Haidku, ungu-plum; diadaptasi dari poster promosi pengguna).
 
 ## Font
 - Teks Arab: Amiri (file dari pengguna ada di `fonts/`, salin ke ~/.fonts lalu `fc-cache -f`).
