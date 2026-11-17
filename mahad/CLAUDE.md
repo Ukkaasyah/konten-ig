@@ -6,12 +6,13 @@ JANGAN tulis "disusun oleh Ukkaasyah Abdurrahman" di konten akun ini.
 ## Alur kerja
 1. Pengguna memberi tema atau menyetujui usulan tema.
 2. Buat carousel JPG 4:5 (1080×1350) plus caption. Kirim ke pengguna untuk dicek.
-3. Setelah disetujui: commit gambar ke `mahad/posts/YYYY-MM-DD-slug/`, push ke `main`.
-4. Jadwalkan lewat Metricool, brand Ma'had (blogId: BELUM ADA, akun belum disambungkan ke Metricool),
-   zona waktu Asia/Jakarta, network `instagram`, type `POST`,
-   media = `https://raw.githubusercontent.com/Ukkaasyah/konten-ig/main/mahad/posts/<slug>/<nn>.jpg`.
-5. Jadwal: 1x sehari, selang-seling AQIDAH dan KAIDAH FIKIH. Jam tayang: BELUM DITENTUKAN.
-6. Unggah ke Metricool sebagai draf dulu; jadikan terjadwal hanya setelah pengguna bilang oke.
+3. TIDAK ada posting otomatis untuk akun Ma'had (keputusan pengguna, 17 Nov 2026: kuota Metricool
+   disimpan untuk akun pribadi @ukkaasyah.abdurrahman). Pengguna mengunggah sendiri secara manual,
+   jadi cukup kirim file JPG + caption siap upload. Jangan sambungkan/menjadwalkan akun Ma'had ke Metricool.
+4. Gambar Ma'had tidak perlu di-commit ke repo (repo dipakai sebagai hosting gambar untuk Metricool saja).
+5. Tema tetap selang-seling AQIDAH dan KAIDAH FIKIH.
+6. Skrip render contoh: `tools/mahad_nabi_palsu_render.py OUT mahad/aset/logo-transparan.png mahad/aset/logo-terang.png`
+   (`logo-transparan.png` untuk slide isi krem, `logo-terang.png` untuk sampul navy).
 
 ## Aset
 - `aset/logo.jpg`: logo Ma'had Aly Luqmanul Hakim (taruh kecil di pojok kiri bawah setiap slide, seperti contoh).
