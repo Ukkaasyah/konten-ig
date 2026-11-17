@@ -47,7 +47,7 @@ D.add(D.chrome(3) + """
   <div class='box' style='margin-top:26px'>
     <div class='ar' style='font-size:34px;line-height:1.85;color:#1E3A2B'>إِنَّمَا ذَلِكِ عِرْقٌ وَلَيْسَ بِالْحَيْضَةِ، فَإِذَا أَقْبَلَتِ الْحَيْضَةُ فَدَعِي الصَّلَاةَ، وَإِذَا أَدْبَرَتْ فَاغْسِلِي عَنْكِ الدَّمَ وَصَلِّي</div>
     <p style='font-size:25px;line-height:1.5;margin-top:14px'>&ldquo;Itu hanyalah darah urat, bukan haid. Kalau haid datang, tinggalkan shalat. Kalau sudah berlalu, bersihkan darahnya lalu shalatlah.&rdquo;</p>
-    <div class='src'>Sabda Nabi &#xFDFA; kepada Fathimah binti Abi Hubaisy &middot; HR. Al-Bukhari no. 228, Muslim no. 333</div>
+    <div class='src'>Sabda Nabi &#xFDFA; kepada Fathimah binti Abi Hubaisy &middot; HR. Muslim no. 333 (lafaz Muslim); semakna dalam Al-Bukhari no. 228</div>
   </div>
   <p class='body' style='margin-top:26px'>Jadi tidak semua darah itu haid. Ada darah yang tetap mewajibkan shalat.</p>
 </div>""")
@@ -82,7 +82,7 @@ D.add(D.chrome(5, "Nukilan kitab · 2") + f"""
 </div>""")
 
 # 6 TUHFAH: kebiasaan yang menyalahi batas tidak diikuti
-tuhfah_adat = ("فَإِنَّ الْمَرْأَةَ قَدْ لَا تَحِيضُ أَصْلًا وَغَالِبُهُ بَقِيَّةُ الشَّهْرِ بَعْدَ غَالِبِ الْحَيْضِ السَّابِقِ ⟦وَلَوْ اطَّرَدَتْ عَادَةُ امْرَأَةٍ أَوْ أَكْثَرُ بِمُخَالَفَةِ شَيْءٍ مِمَّا مَرَّ لَمْ تُتْبَعْ⟧ "
+tuhfah_adat = ("فَإِنَّ الْمَرْأَةَ قَدْ لَا تَحِيضُ أَصْلًا وَغَالِبُهُ بَقِيَّةُ الشَّهْرِ بَعْدَ غَالِبِ الْحَيْضِ السَّابِقِ، ⟦وَلَوْ اطَّرَدَتْ عَادَةُ امْرَأَةٍ أَوْ أَكْثَرُ بِمُخَالَفَةِ شَيْءٍ مِمَّا مَرَّ لَمْ تُتْبَعْ⟧ "
                "لِأَنَّ بَحْثَ الْأَوَّلَيْنِ أَتَمُّ ⟦وَحَمْلَ دَمِهَا عَلَى الْفَسَادِ أَوْلَى مِنْ خَرْقِ الْعَادَةِ الْمُسْتَمِرَّةِ⟧ وَقَدْ يُشْكِلُ عَلَيْهِ خَرْقُهُمْ لَهَا بِرُؤْيَةِ امْرَأَةٍ دَمًا بَعْدَ سِنِّ الْيَأْسِ "
                "حَيْثُ حَكَمُوا عَلَيْهِ بِأَنَّهُ حَيْضٌ وَأَبْطَلُوا بِهِ تَحْدِيدَهُمْ لَهُ بِمَا مَرَّ")
 D.add(D.chrome(6, "Nukilan kitab · 3") + f"""
@@ -91,7 +91,7 @@ D.add(D.chrome(6, "Nukilan kitab · 3") + f"""
   <div class='tr'>
     <div class='lab'>Terjemah bagian yang ditandai</div>
     <p>&ldquo;Kalau kebiasaan seorang wanita, atau lebih, <b class='g'>terus-menerus menyalahi batas-batas tadi, kebiasaan itu tidak diikuti</b> &hellip; Menghukumi darahnya sebagai <b class='g'>darah fasad</b> lebih tepat daripada menabrak kebiasaan umum yang terus berlaku.&rdquo;</p>
-    <p style='margin-top:14px'>Jadi kalau &ldquo;haid&rdquo; selama pakai KB selalu cuma setengah hari, itu <b class='g'>bukan haid</b> walaupun terjadi tiap bulan.</p>
+    <p style='margin-top:14px'>Dalam Hasyiyah Asy-Syarwani (menukil Nihayah dan Mughni): maksudnya haid kurang dari sehari semalam, lebih dari 15 hari, atau suci kurang dari 15 hari. Jadi kalau &ldquo;haid&rdquo; selama pakai KB selalu cuma setengah hari, itu <b class='g'>bukan haid</b> walaupun terjadi tiap bulan.</p>
   </div>
 </div>""")
 
@@ -101,8 +101,8 @@ D.add(D.chrome(7) + """
   <h2>Coba terapkan ke kasusmu</h2>
   <div class='rule'></div>
   <div class='kh'><div class='who'>Flek setengah hari, lalu berhenti</div><div class='what'>Kalau dalam 15 hari tidak ada darah lain yang menggenapkannya jadi 24 jam: <b class='g'>bukan haid</b>. Shalat yang terlanjur ditinggalkan diqadha.</div></div>
-  <div class='kh'><div class='who'>Darah 3 hari, bersih 4 hari, keluar lagi 2 hari</div><div class='what'><b class='g'>Semuanya haid</b>, termasuk 4 hari bersihnya, selama totalnya tidak lewat 15 hari dari awal.</div></div>
-  <div class='kh'><div class='who'>Darah 3 hari, bersih 12 hari, keluar lagi 3 hari</div><div class='what'>3 hari terakhir itu <b class='g'>darah fasad</b>, karena masa sucinya belum genap 15 hari. Contoh ini disebut Asy-Syirbini dalam Mughni Al-Muhtaj 1/284.</div></div>
+  <div class='kh'><div class='who'>Darah 3 hari, bersih 4 hari, keluar lagi 2 hari</div><div class='what'><b class='g'>Semuanya haid</b>, termasuk 4 hari bersihnya, selama totalnya tidak lewat 15 hari dari awal dan sebelumnya ia sudah suci minimal 15 hari.</div></div>
+  <div class='kh'><div class='who'>Darah 3 hari, bersih 12 hari, keluar lagi 3 hari lalu berhenti</div><div class='what'>3 hari terakhir itu <b class='g'>darah fasad</b>, karena masa sucinya belum genap 15 hari. Contoh ini dinukil Asy-Syirbini dari Al-Majmu&lsquo; (Mughni Al-Muhtaj 1/284).</div></div>
   <div class='kh'><div class='who'>Darah terus lebih dari 15 hari</div><div class='what'>Ini <b class='g'>istihadhah</b>. Hari haidnya ditentukan dari sifat darah atau kebiasaan sebelumnya. Rinciannya panjang, jadi tanyakan dengan catatan yang lengkap.</div></div>
 </div>""")
 
@@ -117,7 +117,7 @@ D.add(D.chrome(8, "Nukilan kitab · 4 · Khilaf") + f"""
   <div class='tr'>
     <div class='lab'>Bagaimana dengan flek kuning atau coklat?</div>
     <p>&ldquo;&hellip; Semuanya haid, &hellip; <b class='g'>baik kebiasaannya berubah ataupun tidak</b> &hellip; Darah kuning dan keruh <b class='g'>termasuk haid menurut pendapat ashah</b>, karena itulah hukum asal darah yang keluar di masa yang memungkinkan haid. <b class='g'>Pendapat kedua: bukan haid</b>, karena warnanya bukan warna darah, berdasarkan perkataan Ummu &lsquo;Athiyyah.&rdquo;</p>
-    <p style='margin-top:12px'>Yang dipegang dalam madzhab adalah pendapat pertama.</p>
+    <p style='margin-top:12px'>Yang dipegang dalam madzhab adalah pendapat pertama, <b class='g'>selama flek itu memenuhi tiga patokan tadi</b>. Flek yang total keluarnya kurang dari 24 jam tetap bukan haid.</p>
   </div>
 </div>""")
 
