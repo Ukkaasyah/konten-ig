@@ -124,7 +124,7 @@ S.append(page(chrome(2) + """
   <h2>Ceritanya berulang, <i>hanya pemerannya yang ganti</i></h2>
   <div class='rule'></div>
   <p class='body'>Hampir setiap beberapa tahun ada saja berita serupa di negeri kita. Seseorang mengaku didatangi Jibril, mengaku menerima wahyu, mengaku Imam Mahdi, lalu naik lagi menjadi rasul.</p>
-  <p class='body'>Tempatnya berpindah-pindah. Kadang di kampung, kadang di kota, sekarang bahkan lewat grup WhatsApp dan live streaming. Namanya pun berganti.</p>
+  <p class='body'>Tempatnya berpindah-pindah. Kadang di kampung, kadang di kota, dan sekarang ada yang menyebarkannya lewat media sosial. Namanya pun berganti.</p>
   <p class='body'>Kita sengaja tidak menyebut nama siapa pun. Nama akan dilupakan orang, tapi <b class='g'>polanya</b> akan datang lagi dengan wajah baru. Pola itulah yang perlu kita kenali.</p>
   <div class='note' style='margin-top:auto'>Yang menarik, Nabi &#xFDFA; sudah mengabarkan fenomena ini empat belas abad sebelum terjadi.</div>
 </div>"""))
@@ -135,7 +135,7 @@ S.append(page(chrome(3) + """
   <h2>Sudah dikunci, <i>sudah dikabarkan</i></h2>
   <div class='rule'></div>
   <div class='box'>
-    <div class='hd' style='font-size:38px'>﴿مَا كَانَ مُحَمَّدٌ أَبَا أَحَدٍ مِنْ رِجَالِكُمْ وَلَٰكِنْ رَسُولَ اللَّهِ وَخَاتَمَ النَّبِيِّينَ﴾</div>
+    <div class='hd' style='font-size:36px'>﴿مَا كَانَ مُحَمَّدٌ أَبَا أَحَدٍ مِنْ رِجَالِكُمْ وَلَٰكِنْ رَسُولَ اللَّهِ وَخَاتَمَ النَّبِيِّينَ﴾</div>
     <p class='arti'>&ldquo;Muhammad itu bukan bapak dari seorang laki-laki pun di antara kalian, tetapi ia adalah Rasulullah dan <b class='g'>penutup para nabi</b>.&rdquo;</p>
     <div class='src'>QS. Al-Ahzab: 40</div>
   </div>
@@ -153,10 +153,10 @@ t1 = ("قوله: «⟦وكل دعوى النبوة بعده فغي وهوى⟧»
       "لأنا نقول: هذا لا يتصور أن يوجد، وهو من باب فرض المحال؛ لأن الله تعالى لما أخبر أنه خاتم النبيين، ⟦فمن المحال أن يأتي مدع يدعي النبوة ولا يظهر أمارة كذبه في دعواه⟧. "
       "والغي: ضد الرشاد. والهوى: عبارة عن شهوة النفس. أي: ⟦أن تلك الدعوى بسبب هوى النفس، لا عن دليل، فتكون باطلة⟧.\n"
       "قوله: «وهو المبعوث إلى عامة الجن وكافة الورى، بالحق والهدى، وبالنور والضياء». ش: أما كونه مبعوثا إلى عامة الجن، فقال تعالى حكاية عن قول الجن: ﴿يَا قَوْمَنَا أَجِيبُوا دَاعِيَ اللَّهِ﴾ …")
-S.append(kitab_slide(4, "Nukilan salaf &middot; Imam Ath-Thahawi", "شرح العقيدة الطحاوية — ابن أبي العز", "ج ١ · ص ١٦٦", t1.replace("\n", " "),
+S.append(kitab_slide(4, "Nukilan &middot; Imam Ath-Thahawi (w. 321 H)", "شرح العقيدة الطحاوية — ابن أبي العز", "ج ١ · ص ١٦٦", t1.replace("\n", " "),
     "app.turath.io/book/10549?page=160",
     "Ath-Thahawi: &ldquo;<b class='g'>Setiap pengakuan kenabian sesudah beliau adalah kesesatan dan hawa nafsu.</b>&rdquo; Pensyarah menjelaskan: &ldquo;Karena sudah pasti beliau penutup para nabi, diketahuilah bahwa siapa pun yang mengaku nabi sesudahnya adalah pendusta &hellip; Mustahil datang seorang pengaku nabi tanpa tampak tanda kedustaannya &hellip; Pengakuan itu lahir dari hawa nafsu, bukan dari dalil, maka ia batil.&rdquo;",
-    "Imam Ath-Thahawi (239&ndash;321 H) hidup di masa salaf. Matan akidahnya menjadi pegangan ahlus sunnah lintas madzhab sampai hari ini."))
+    "Imam Ath-Thahawi (w. 321 H), murid sekaligus keponakan Imam Al-Muzani, murid Imam Asy-Syafi'i. Matannya memuat akidah ahlus sunnah yang ia nisbatkan kepada para imam abad ke-2 H."))
 
 # 05 NUKILAN SYAFI'IYAH: IBNU KATSIR
 t2 = ("والأحاديث في هذا كثيرة، فمن رحمة الله تعالى بالعباد إرسال محمد ﷺ إليهم، ثم من تشرف له ختم الأنبياء والمرسلين به، وإكمال الدين الحنيف له. "
@@ -166,7 +166,7 @@ t2 = ("والأحاديث في هذا كثيرة، فمن رحمة الله تع
       "فإنهم بضرورة الواقع ⟦لا يأمرون بمعروف ولا ينهون عن منكر إلا على سبيل الاتفاق، أو لما لهم فيه من المقاصد⟧ …")
 S.append(kitab_slide(5, "Ulama Syafi'iyah &middot; Al-Hafizh Ibnu Katsir", "تفسير القرآن العظيم — ابن كثير", "ج ١١ · ص ١٧٩", t2,
     "app.turath.io/book/1509?page=5075",
-    "&ldquo;&hellip; tidak ada nabi sesudah beliau, agar mereka tahu bahwa <b class='g'>siapa pun yang mengaku menempati kedudukan ini sesudah beliau adalah pendusta besar, dajjal, sesat lagi menyesatkan</b>, sekalipun ia mengarang keajaiban, bermain sulap, dan membawa aneka sihir dan jimat &hellip; Begitu pula <b class='g'>setiap pengaku sampai hari kiamat</b> &hellip; Allah tampakkan bersamanya hal-hal yang membuat para ulama dan orang beriman bersaksi atas kedustaannya &hellip; Mereka tidak menyuruh yang ma'ruf dan tidak melarang yang mungkar, kecuali kebetulan atau karena ada kepentingan.&rdquo;",
+    "&ldquo;&hellip; tidak ada nabi sesudah beliau, agar mereka tahu bahwa <b class='g'>siapa pun yang mengaku menempati kedudukan ini sesudah beliau adalah pendusta besar, dajjal, sesat lagi menyesatkan</b>, sekalipun ia mengarang-ngarang dusta, bermain sulap, dan membawa aneka sihir, rajah, dan jampi &hellip; Begitu pula <b class='g'>setiap pengaku sampai hari kiamat</b> &hellip; Allah tampakkan bersamanya hal-hal yang membuat para ulama dan orang beriman bersaksi atas kedustaannya &hellip; Mereka tidak menyuruh yang ma'ruf dan tidak melarang yang mungkar, kecuali kebetulan atau karena ada kepentingan.&rdquo;",
     "Ibnu Katsir (w. 774 H), ahli tafsir dan hadits madzhab Syafi'i. Kalimat terakhirnya penting: <b>lihat apa yang ia perintahkan dan untuk siapa keuntungannya.</b>"))
 
 # 06 POLA PENGAKUAN
@@ -213,7 +213,7 @@ S.append(page(chrome(9) + """
   <div class='rule'></div>
   <div class='box'>
     <div style='font-size:18px;letter-spacing:.16em;font-weight:700;color:#B08E4E;margin-bottom:6px'>ANALOGI DARI NABI &#xFDFA;</div>
-    <div class='hd' style='font-size:31px'>مَثَلِي وَمَثَلُ الْأَنْبِيَاءِ مِنْ قَبْلِي كَمَثَلِ رَجُلٍ بَنَى بَيْتًا فَأَحْسَنَهُ وَأَجْمَلَهُ إِلَّا مَوْضِعَ لَبِنَةٍ مِنْ زَاوِيَةٍ &hellip; فَأَنَا اللَّبِنَةُ، وَأَنَا خَاتَمُ النَّبِيِّينَ</div>
+    <div class='hd' style='font-size:31px'>إِنَّ مَثَلِي وَمَثَلَ الْأَنْبِيَاءِ مِنْ قَبْلِي كَمَثَلِ رَجُلٍ بَنَى بَيْتًا فَأَحْسَنَهُ وَأَجْمَلَهُ إِلَّا مَوْضِعَ لَبِنَةٍ مِنْ زَاوِيَةٍ &hellip; فَأَنَا اللَّبِنَةُ، وَأَنَا خَاتِمُ النَّبِيِّينَ</div>
     <p class='arti'>&ldquo;Perumpamaanku dan para nabi sebelumku seperti orang yang membangun rumah. Ia membuatnya bagus dan indah, kecuali satu tempat batu bata di salah satu sudutnya &hellip; <b class='g'>Akulah batu bata itu, dan akulah penutup para nabi.</b>&rdquo;</p>
     <div class='src'>HR. Al-Bukhari no. 3535 dan Muslim no. 2286</div>
   </div>
@@ -221,27 +221,27 @@ S.append(page(chrome(9) + """
   <ul class='dot'>
     <li>Allah menyatakan agama ini sudah sempurna (QS. Al-Ma'idah: 3). Menambah nabi berarti menganggap masih ada yang kurang.</li>
     <li>Kalau pintu kenabian dibuka, siapa saja bisa mengaku. Agama lalu menjadi milik orang yang paling pandai bercerita.</li>
-    <li>Nabi &#xFDFA; dikenal jujur 40 tahun sebelum diutus dan tidak meminta upah dakwah. Bandingkan dengan ramalan yang meleset dan setoran yang wajib.</li>
+    <li>Nabi &#xFDFA; sudah dikenal jujur (Al-Amin) jauh sebelum diutus, dan tidak meminta upah atas dakwahnya (QS. Saba': 47). Bandingkan dengan ramalan yang meleset dan setoran yang diwajibkan.</li>
   </ul>
 </div>"""))
 
-# 10 BENTENG
-S.append(page(chrome(10) + """
+# 10 NUKILAN SALAF (SHAHIH MUSLIM) + BENTENG
+t4 = ("قَالَ رَسُولُ الله ﷺ: «⟦يَكُونُ فِي آخِرِ الزَّمَانِ دَجَّالُونَ كَذَّابُونَ. يَأْتُونَكُمْ مِنَ الأَحَادِيثِ بِمَا لَمْ تَسْمَعُوا أَنْتُمْ وَلَا آبَاؤُكُمْ. فَإِيَّاكُمْ وَإِيَّاهُمْ. لَا يُضِلُّونَكُمْ وَلَا يَفْتِنُونَكُمْ⟧» "
+      "وحَدَّثَنِي أَبُو سَعِيدٍ الأَشَجُّ. حَدَّثَنَا وَكِيعٌ. حَدَّثَنَا الأَعْمَشُ، عَنِ الْمُسَيَّبِ بْنِ رَافِعٍ، عَنْ عَامِرِ بْنِ عَبَدَةَ؛ قَالَ: قَالَ عَبْدُ اللَّهِ: ⟦إِنَّ الشَّيْطَانَ لِيَتَمَثَّلُ فِي صُورَةِ الرَّجُلِ. فَيَأْتِي الْقَوْمَ فَيُحَدِّثُهُمْ بِالْحَدِيثِ مِنَ الْكَذِبِ⟧. فَيَتَفَرَّقُونَ … "
+      "عن عبد الله بن عمر بْنِ الْعَاصِ؛ قَالَ: ⟦إِنَّ فِي الْبَحْرِ شَيَاطِينَ مَسْجُونَةً أَوْثَقَهَا سُلَيْمَانُ. يُوشِكُ أَنْ تَخْرُجَ فَتَقْرَأَ على الناس قرآنا⟧.")
+S.append(page(chrome(10, "Nukilan salaf &middot; Shahih Muslim") + f"""
 <div class='wrap'>
-  <h2>Membentengi diri <i>dan keluarga</i></h2>
-  <div class='rule'></div>
-  <div class='box'>
-    <div class='hd' style='font-size:32px'>يَكُونُ فِي آخِرِ الزَّمَانِ دَجَّالُونَ كَذَّابُونَ، يَأْتُونَكُمْ مِنَ الْأَحَادِيثِ بِمَا لَمْ تَسْمَعُوا أَنْتُمْ وَلَا آبَاؤُكُمْ، فَإِيَّاكُمْ وَإِيَّاهُمْ، لَا يُضِلُّونَكُمْ وَلَا يَفْتِنُونَكُمْ</div>
-    <p class='arti'>&ldquo;Di akhir zaman akan ada para dajjal pendusta. Mereka membawa kepada kalian cerita yang belum pernah kalian dan bapak-bapak kalian dengar. <b class='g'>Jauhi mereka</b>, jangan sampai mereka menyesatkan dan memfitnah kalian.&rdquo;</p>
-    <div class='src'>HR. Muslim dalam Muqaddimah Shahih-nya, dari Abu Hurairah</div>
+  {kitab("صحيح مسلم — المقدمة", "ج ١ · ص ١٢ · رقم ٧", t4, "app.turath.io/book/1727?page=19")}
+  <div class='tr'><div class='lab'>Terjemah bagian yang distabilo</div><p>Nabi &#xFDFA;: &ldquo;Di akhir zaman akan ada para dajjal pendusta yang membawa cerita yang belum pernah kalian dan bapak-bapak kalian dengar. <b class='g'>Jauhi mereka</b>, jangan sampai mereka menyesatkan dan memfitnah kalian.&rdquo; Ibnu Mas'ud: &ldquo;Setan menjelma dalam rupa manusia, mendatangi suatu kaum, lalu menyampaikan cerita dusta.&rdquo; Abdullah bin 'Amr: &ldquo;Di laut ada setan-setan yang dibelenggu Sulaiman. <b class='g'>Hampir tiba masanya mereka keluar lalu membacakan &lsquo;Qur'an&rsquo; kepada manusia.</b>&rdquo;</p></div>
+  <div class='box' style='margin-top:auto;padding:22px 30px'>
+    <div style='font-size:18px;letter-spacing:.16em;font-weight:700;color:#B08E4E;margin-bottom:10px'>BENTENG UNTUK DIRI DAN KELUARGA</div>
+    <ul class='dot'>
+      <li>Pelajari akidah dari dasarnya: makna <b class='g'>Muhammad Rasulullah</b> dan bahwa beliau penutup para nabi.</li>
+      <li>Klaim wahyu, mimpi, atau &ldquo;perintah langit&rdquo; baru: <b class='g'>tolak</b>, tidak perlu ditimbang isinya.</li>
+      <li>Waspadai kajian serba rahasia, yang melarang bertanya ke ulama lain, atau menarik setoran.</li>
+      <li>Kerabat yang terlanjur ikut: rangkul, jangan dimaki. Ajak duduk dengan ustadz yang lurus, dan doakan.</li>
+    </ul>
   </div>
-  <ul class='dot' style='margin-top:26px'>
-    <li>Pelajari akidah dari dasarnya, terutama makna syahadat <b class='g'>Muhammad Rasulullah</b> dan bahwa beliau penutup para nabi.</li>
-    <li>Klaim wahyu, mimpi, atau &ldquo;perintah langit&rdquo; yang baru: <b class='g'>tolak</b>, tidak perlu ditimbang dulu isinya.</li>
-    <li>Waspadai kajian yang serba rahasia, melarang bertanya ke ulama lain, atau menarik setoran.</li>
-    <li>Kalau ada kerabat yang terlanjur ikut, rangkul, jangan dimaki. Ajak duduk dengan ustadz yang lurus, dan doakan.</li>
-  </ul>
-  <div class='note' style='margin-top:auto'>Para sahabat di bawah Abu Bakr Ash-Shiddiq bersepakat memerangi para pengaku nabi. Sejak generasi pertama, umat ini <b>tidak pernah berkompromi</b> dalam urusan ini.</div>
 </div>"""))
 
 FIT = """() => {
