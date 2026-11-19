@@ -46,6 +46,11 @@ Harus terasa ditulis manusia, bukan "gaya AI". Hindari pola klise AI.
 14. Judul: hook bergaya ilmiah atau gaya bahasa santri.
 15. Warna sampul: selalu hijau tua (#1E3A2B).
 16. Maksimal 10 slide.
+17. URUTAN SLIDE (permintaan pengguna, 19 Nov 2026; ada pengikut yang merasa pembahasan "njelimet"):
+    sampul/judul → kasus → KESIMPULAN (jawaban singkat, bahasa awam, tanpa istilah berat) →
+    baru setelah itu dalil, nukilan kitab, dan khilaf → penutup.
+    Tujuannya: pembaca awam dapat faidahnya dulu; yang mau mendalami lanjut menggeser ke dalil dan nukilan.
+    Di slide kesimpulan beri penanda "Dalil dan nukilan kitab di slide berikutnya →".
 
 ## Rules TAZKIYAH / ADAB
 1. Bermanhaj salaf.
